@@ -9,7 +9,7 @@ util.alert = function(content) {
 };
 
 util.title = function (title) {
-    title = title ? title + ' - iView' : 'iView - A high quality UI Toolkit based on Vue.js';
+    title = title ? title + ' - ZAntUI' : 'ZAntUI - A high quality UI Toolkit based on Vue+IView';
     window.document.title = title;
 };
 const SPECIAL_CHARS_REGEXP = /([\:\-\_]+(.))/g;

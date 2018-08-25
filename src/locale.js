@@ -1,9 +1,9 @@
 export default {
     'zh-CN': {
         index: {
-            title: '一套基于 Vue.js 的高质量 UI 组件库',
-            title1: '一套基于 Vue.js 的高质量',
-            title2: 'UI 组件库',
+            title: '一套基于vue+iview的高质量 UI 组件库',
+            title1: 'Z蚂蚁UI,一套更高质量的UI组件库',
+            title2: '来源iView分支',
             start: '开始使用',
             guide: '指南',
             component: '组件',
@@ -17,8 +17,8 @@ export default {
             donate: '赞助',
             links: '相关站点',
             tc: '有逼格的程序员社区',
-            td: '用数据的心智去超越',
-            td_mi: '免费公开大数据查询平台',
+            td: '为有品质的生活',
+            td_mi: '在线正则表达式调试',
             inmap: '大数据地理信息可视化框架',
             Fregata: '大规模机器学习算法库',
             Myna: 'Android 平台情景感知框架',
@@ -31,14 +31,15 @@ export default {
             code_copy: '复制代码',
             code_fullscreen: '放大',
             code_jsfiddle: '在 JSFiddle 中打开',
-            current_version: '当前呈现版本：'
+            current_version: '当前呈现版本：',
+            anooc_name:'安橙在线工具箱'
         }
     },
     'en-US': {
         index: {
-            title: 'A high quality UI Toolkit based on Vue.js',
-            title1: 'A high quality UI Toolkit',
-            title2: 'based on Vue.js',
+            title: 'A high quality UI Toolkit based on Vue+iview',
+            title1: 'ZAntUI,A set of higher quality UI component libraries',
+            title2: 'Source iView branch',
             start: 'Getting Started',
             guide: 'Guide',
             component: 'Components',
@@ -52,8 +53,8 @@ export default {
             donate: 'Donate',
             links: 'Related Links',
             tc: 'Programmer Community',
-            td: 'Go beyond with the heart and mind of data',
-            td_mi: 'Free Public Mobile Big Data Query Platform',
+            td: 'For a quality life',
+            td_mi: 'Online regex tester and debugger',
             inmap: 'Map visualization',
             Fregata: 'Machine Learning Library',
             Myna: 'Android Situational Awareness Library',
@@ -66,7 +67,8 @@ export default {
             code_copy: 'Copy code',
             code_fullscreen: 'Fullscreen',
             code_jsfiddle: 'Open in JSFiddle',
-            current_version: 'Current Version:'
+            current_version: 'Current Version:',
+            anooc_name:'Anooc Tool'
         }
     }
 }

@@ -102,19 +102,10 @@
                         </h4>
                         <ul>
                             <li>
-                                <a href="https://github.com/iview/iview" target="_blank">iView</a>
+                                <a href="https://github.com/zouhuigang/zantui" target="_blank">ZAntui</a>
                             </li>
                             <li>
-                                <a href="https://github.com/iview/iview-cli" target="_blank">iView Cli</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/iview/iview-admin" target="_blank">iView Admin</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/iview/iview-doc" target="_blank">iView Doc</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/iview/iview-project" target="_blank">iView Project</a>
+                                <a href="https://github.com/zouhuigang" target="_blank">zouhuigang</a>
                             </li>
                         </ul>
                     </i-col>
@@ -125,12 +116,12 @@
                         </h4>
                         <ul>
                             <li>
-                                <a href="https://www.talkingdata.com/" target="_blank">TalkingData</a> - {{ $t('index.td') }}
+                                <a href="https://www.anooc.com/" target="_blank">{{ $t('index.anooc_name') }}</a> - {{ $t('index.td') }}
                             </li>
                             <li>
-                                <a href="http://mi.talkingdata.com/" target="_blank">Marketing Intelligence</a> - {{ $t('index.td_mi') }}
+                                <a href="https://regex101.com/" target="_blank">regex101</a> - {{ $t('index.td_mi') }}
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="https://github.com/TalkingData/inmap/" target="_blank">inMap</a> - {{ $t('index.inmap') }}
                             </li>
                             <li>
@@ -141,7 +132,7 @@
                             </li>
                             <li>
                                 <a href="https://github.com/TalkingData/owl" target="_blank">OWL</a> - {{ $t('index.OWL') }}
-                            </li>
+                            </li> -->
                         </ul>
                     </i-col>
                     <i-col span="5" offset="2">
@@ -167,13 +158,13 @@
                     <i-col span="5" offset="2">
                         <div class="footer-aside">
                             <div class="footer-logo">
-                                <img src="../images/logo.png">
+                                <img src="../images/anooc-logo-online.svg">
                             </div>
-                            <div class="footer-author">
+                            <!-- <div class="footer-author">
                                 <a href="https://www.talkingdata.com/">
                                     <img src="../images/logo-td.png">
                                 </a>
-                            </div>
+                            </div> -->
                             <!--<div class="footer-version">-->
                                 <!--<p>{{ $t('index.current_version') }}</p>-->
                                 <!--<p>Vue.js 2.5.13, iView 2.9.0</p>-->
