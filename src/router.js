@@ -1,9 +1,9 @@
 /**
- * Created by aresn on 16/8/22.
+ * Created by zouhuigang on 18/8/25.
  */
 const routers = [
     {
-        path: '/',
+        path: '/zantui-doc/',
         meta: {
             title: ''
         },
@@ -1033,7 +1033,7 @@ const routers = [
     },
     {
         path: '*',
-        redirect: '/'
+        redirect: '/zantui-doc/'
     }
 ];
 
