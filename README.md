@@ -1,4 +1,4 @@
-# iview-doc
+# zantui-doc
 Doc of iView
 
 
