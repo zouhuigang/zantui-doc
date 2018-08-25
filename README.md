@@ -38,4 +38,13 @@ Q:
 
 A:
 
-	
+	切换回原来的路由就好了
+
+
+Q：
+	首页按钮不能点击，iview版本 "iview": "^2.14.3",
+
+
+A：
+
+	删除node_modules下的iview,然后package.json中添加:"iview": "^3.0.1"，然后cnpm install 即可升级3.0.1 
