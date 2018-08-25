@@ -10,7 +10,7 @@ var fs = require('fs');
 
 // config.output.publicPath = 'https://file.iviewui.com/dist/';
 // config.output.publicPath = '/dist/';
-config.output.publicPath = 'https://zouhuigang.anooc.com/zantui-doc/';
+config.output.publicPath = 'https://zantui.anooc.com/';
 config.output.filename = '[name].[hash].js';                 // 带hash值的入口js名称
 config.output.chunkFilename = '[name].[hash].chunk.js';      // 带hash值的路由js名称
 

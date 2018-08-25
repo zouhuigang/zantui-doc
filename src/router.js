@@ -3,7 +3,7 @@
  */
 const routers = [
     {
-        path: '/zantui-doc/',
+        path: '/',
         meta: {
             title: ''
         },
@@ -1033,7 +1033,7 @@ const routers = [
     },
     {
         path: '*',
-        redirect: '/zantui-doc/'
+        redirect: '/'
     }
 ];
 

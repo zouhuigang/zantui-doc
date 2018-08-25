@@ -9,3 +9,5 @@ src/config/env.js
 /index.html
 /index_prod.html
 npm-debug.log
+dist/
+dist/*
