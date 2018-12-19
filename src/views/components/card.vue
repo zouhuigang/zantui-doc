@@ -21,6 +21,20 @@
         }
 
     }
+
+.bottom {
+    margin-top: 13px;
+    line-height: 12px;
+}
+.clearfix:before,
+  .clearfix:after {
+      display: table;
+      content: "";
+  }
+  
+  .clearfix:after {
+      clear: both
+  }
 </style>
 <template>
     <i-article>
@@ -137,6 +151,26 @@
                     <p>只包含内容区域，没有标题。</p>
                 </div>
                 <i-code lang="html" slot="code">{{ code.simple }}</i-code>
+            </Demo>
+
+
+            <Demo title="带图片">
+                <div slot="demo">
+                    <Card style="width:270px;" :padding="0">
+                        <img src="../../images/hamburger.png" style="width: 100%;display: block;height:270px;">
+                        <div style="padding: 14px;">
+                            <span style="color:#303133">好吃的汉堡</span>
+                            <div style="margin-top: 13px;line-height: 12px;" class="clearfix">
+                                <time style=" font-size: 13px;color: #999;">{{ currentDate }}</time>
+                                <Button style="padding: 0;float: right;color: #409eff;" type="text">操作按钮</Button>
+                            </div>
+                        </div>
+                    </Card>
+                </div>
+                <div slot="desc">
+                    <p>可配置定义更丰富的内容展示。</p>
+                </div>
+                <i-code lang="html" slot="code">{{ code.image }}</i-code>
             </Demo>
 
             <ad></ad>
@@ -288,7 +322,8 @@
                         rate: 9.2
                     }
                 ],
-                randomMovieList: []
+                randomMovieList: [],
+                currentDate: new Date().toLocaleString().replace(/年|月/g, " - ").replace(/日/g, " ")
             }
         },
         methods: {

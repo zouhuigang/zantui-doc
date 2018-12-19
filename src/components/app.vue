@@ -92,6 +92,7 @@
                 return bus.loading;
             },
             settingTitle () {
+                console.info(this);
                 if (this.$lang === 'zh-CN') {
                     return '文档设置';
                 } else {

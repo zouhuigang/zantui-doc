@@ -8,7 +8,7 @@ let loader = {};
 let global = {};
 
 introduce.install = `
-$ npm install iview --save
+$ npm install zantui --save
 `;
 
 introduce.script= `
@@ -34,9 +34,9 @@ install.cdn = `
 <!-- import Vue.js -->
 <script src="//vuejs.org/js/vue.min.js"></script>
 <!-- import stylesheet -->
-<link rel="stylesheet" href="//unpkg.com/iview/dist/styles/iview.css">
-<!-- import iView -->
-<script src="//unpkg.com/iview/dist/iview.min.js"></script>
+<link rel="stylesheet" href="//unpkg.com/zantui/dist/styles/iview.css">
+<!-- import zantui -->
+<script src="//unpkg.com/zantui/dist/iview.min.js"></script>
 `;
 
 install.demo = `
@@ -44,15 +44,15 @@ install.demo = `
 <html>
 <head>
     <meta charset="utf-8">
-    <title>iview example</title>
+    <title>ZAntUI example</title>
     <link rel="stylesheet" type="text/css" href="http://unpkg.com/iview/dist/styles/iview.css">
     <script type="text/javascript" src="http://vuejs.org/js/vue.min.js"></script>
-    <script type="text/javascript" src="http://unpkg.com/iview/dist/iview.min.js"></script>
+    <script type="text/javascript" src="http://unpkg.com/zantui/dist/iview.min.js"></script>
 </head>
 <body>
 <div id="app">
     <i-button @click="show">Click me!</i-button>
-    <Modal v-model="visible" title="Welcome">Welcome to iView</Modal>
+    <Modal v-model="visible" title="Welcome">Welcome to ZAntUI</Modal>
 </div>
 <script>
     new Vue({
@@ -72,7 +72,7 @@ install.demo = `
 `;
 
 install.install = `
-$ npm install iview --save
+$ npm install zantui --save
 `;
 
 install.import = `

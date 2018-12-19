@@ -197,5 +197,27 @@ code.simple = `
     }
 </script>
 `;
-
+code.image =`
+<template>
+<Card style="width:270px;" :padding="0">
+<img src="../../images/hamburger.png" style="width: 100%;display: block;height:270px;">
+<div style="padding: 14px;">
+    <span style="color:#303133">好吃的汉堡</span>
+    <div style="margin-top: 13px;line-height: 12px;" class="clearfix">
+        <time style=" font-size: 13px;color: #999;">{{ currentDate }}</time>
+        <Button style="padding: 0;float: right;color: #409eff;" type="text">操作按钮</Button>
+    </div>
+</div>
+</Card>
+</template>
+<script>
+    export default {
+        data () {
+            return {
+                currentDate: new Date().toLocaleString().replace(/年|月/g, " - ").replace(/日/g, " ")
+            }
+        }
+    }
+</script>
+`
 export default code;
